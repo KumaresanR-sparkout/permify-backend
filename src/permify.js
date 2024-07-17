@@ -1,7 +1,7 @@
 import * as permify from '@permify/permify-node';
 import permifySchema from './schema' //it imports permify schema
 
-//Read offical documentation and configure your and then connect vist:[https://docs.permify.co/getting-started/quickstart]
+//Read offical documentation and configure, please vist:[https://docs.permify.co/getting-started/quickstart]
 //Make sure to connect permify
 const client = new permify.grpc.newClient({
     endpoint: "localhost:3478",
